@@ -1,0 +1,38 @@
+/* GENERAL STYLE */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* MAIN */
+.galery__card:nth-child(1) {
+	background-color: #ff0000;
+}
+.galery__card:nth-child(2) {
+	background-color: #008000;
+}
+.galery__card:nth-child(3) {
+	background-color: #ffff00;
+}
+.galery {
+	height: 100vh;
+}
+.galery__card {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.galery__card-inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.galery__title {
+	
+}
+
+
