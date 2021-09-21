@@ -1,4 +1,4 @@
-/* GENERAL STYLE */
+/* GENERAL STYLE  */
 * {
 	padding: 0;
 	margin: 0;
@@ -6,7 +6,10 @@
 }
 /* UTILITY */
 	body {
-		font-family: 'Inconsolata', monospace;
+		 font-family: 'Inconsolata', monospace;/* CAMBIARE FONT */
+	}
+	html {
+		scroll-behavior: smooth;
 	}
 	
 /* MAIN */
@@ -49,4 +52,30 @@
 	
 }
 
-
+/* NAV */
+.nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+.nav__item {
+	display: inline-block;
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	margin:40px 40px 0 0;
+	
+}
+.nav__item:last-child {
+	margin-right: 20px;
+}
+.nav__item a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
